@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(236, 43, 43);
+    color: yellow;
+}
+img{
+    height: auto;
+    width: 300px;
+}
+a{
+    color: yellow;
+    font-size: 2rem;
+    text-decoration: none;
+
+}
+a:hover{
+    background-color: darkred;
+}
