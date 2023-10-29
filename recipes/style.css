@@ -109,8 +109,8 @@
     display: inline-block;
     list-style-type: disc;
     margin: 20px;
-    width: 440px;
-    padding: 65px;
+    width: 450px;
+    padding: 60px;
     border-radius: 10px;
   }
   h2{
@@ -124,7 +124,7 @@
     margin: 50px;
   }
   .baking{
-    margin: 50px;
+    margin: 50px auto;
     background-color: rgb(230,228,228);
     text-align: justify;
     width: 1500px;
@@ -135,5 +135,81 @@
     margin: 20px;
     padding: 32px;
   }
+  .login{
+    height: 800px;
+    /* background-image: url(../images/signup.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    position: relative;
+  }
+  .forms{
+    background-image: url(../images/signup2.jpg);
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    top: 30%;
+    margin: 0 auto;
+    width: 700px;
+    height: 500px;
+    border-radius: 20px;
+    
+  }
+  .inputs{
+    position: relative;
+    margin: 0 auto;
+    top: 30%;
+    width:500px ;
+    height:200px;
+    padding-top: 40px;
+  }
+  .inputs::before{
+    position: absolute;
+    content: '';
+    background-color: rgb(236, 231, 231);
+    opacity: 0.5 ;
+    border-radius: 10px;
 
-  
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .login::before {
+    position: absolute;
+    content: '';
+    background-image: url(../images/signup.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(5px);
+
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+  }
+  #username{
+    position: relative;
+    font-size: 20px;
+    width: 400px;
+    text-align: center;
+    z-index: 2;
+  }
+  #password{
+    position: relative;
+    font-size: 20px;
+    width: 400px;
+    text-align: center;
+  }
+  #Sign_button, #login-button{
+    position: relative;
+    width: 70px;
+    height: 40px;
+  }
+  #login-button{
+    background-color: rgb(69, 80, 142);
+    color: white;
+    margin: 5px;
+  }
