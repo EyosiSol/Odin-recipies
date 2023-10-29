@@ -1,17 +1,98 @@
-body{
-    background-color: rgb(236, 43, 43);
-    color: yellow;
+* {
+  margin: 0px;
+  padding: 0px;
 }
-img{
-    height: auto;
-    width: 300px;
-}
-a{
-    color: yellow;
-    font-size: 2rem;
-    text-decoration: none;
+body {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  max-width: 1500px;b
 
 }
-a:hover{
-    background-color: darkred;
+/* h1{
+    display: inline;
+} */
+.NAV {
+  padding: 20px;
+  margin-left: 0px;
+  font-weight: 600;
+  margin: 20px;
 }
+.NAV .NAV-ul {
+  background-color: rgb(247, 243, 243);
+  padding: 32px;
+  border-radius: 10px;
+  /* display: inline; */
+  
+
+
+}
+.NAV .Nav-li {
+  display: inline;
+  padding-top: auto;
+  padding: 20px;
+  text-align: center;
+}
+img {
+  height: auto;
+  width: 300px;
+}
+a {
+  color: rgb(0, 0, 0);
+  font-size: 1rem;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+a:hover {
+  background-color: rgb(233, 229, 229);
+  border: 2px dotted rgb(167, 167, 167);
+  border-radius: 10px;
+  padding: 5px;
+}
+.recipe-one, .recipe-two, .recipe-three {
+  font-size: 20px;
+  display: block ;
+
+}
+input {
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 3px;
+}
+.searching {
+  display: inline;
+  float: right;
+  margin-top: -4px;
+  text-align: center;
+}
+#Search {
+  background-color: rgb(127, 126, 126);
+  padding: 10px;
+  border-radius: 10px;
+}
+h1{<div class="Piz">
+  <a href="recipes/Pizza.html" target="_blank" class="recipe-three">
+    <img src="images/Tacos-Home.jpg" alt=""/>Tacos</a>
+</div>
+    margin-top: 50px;
+    padding: 20px;
+    font-weight: bolder;
+}
+.Las, .Bur, .Piz, .Tac, .Hot{
+    margin: 20px;
+    margin-right: 0px;
+    display: inline-block;
+    padding: 4px;
+    padding-right: 0px;
+    width: 314px;
+    text-align: left;
+    border-radius: 3px;
+}
+img{
+    border-radius: 15px;
+}
+  
