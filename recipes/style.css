@@ -50,11 +50,11 @@
     border-radius: 10px;
     padding: 5px;
   }
-  .recipe-one, .recipe-two, .recipe-three {
+  /* .recipe-one, .recipe-two, .recipe-three {
     font-size: 20px;
     display: block ;
   
-  }
+  } */
   input {
     font-size: 16px;
     border-radius: 5px;
